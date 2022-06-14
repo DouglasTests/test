@@ -1,0 +1,28 @@
+#contenidopc::-webkit-scrollbar{
+    width: 12px;
+}
+
+#contenidopc::-webkit-scrollbar-thumb{
+    background: rgba(37, 37, 37, 0.829);
+    border-radius: 5px;
+}
+
+#contenidopc::-webkit-scrollbar-track{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#contenidomovil::-webkit-scrollbar{
+    width: 12px;
+}
+
+#contenidomovil::-webkit-scrollbar-thumb{
+    background: rgba(37, 37, 37, 0.829);
+    border-radius: 5px;
+}
+
+#contenidomovil::-webkit-scrollbar-track{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+

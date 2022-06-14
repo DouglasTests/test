@@ -1,0 +1,97 @@
+body{
+    font-family: texto;
+    background-color: black;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(ArlonSemiBold.ttf);}
+
+#espaciocontenidopc{
+    width: 90%;
+    height:90%;
+    background-color: rgba(255, 0, 212, 0);
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode:screen;
+}
+#espaciocontenidomovil{
+    width: 90%;
+    height:90%;
+    background-color: rgba(255, 0, 212, 0);
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contenidopc{
+    width:700px;
+    height: 100%;
+    background-color: #00000000;
+    margin: auto;
+    display: flex;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#contenidomovil{
+    width:700px;
+    height: 100%;
+    background-color: #00000000;
+    margin: auto;
+    display: flex;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+
+#contenidoformpc{
+    width:700px;
+    height: 3450px;
+    background-color: #F0ECEC;
+    margin: auto;
+    display: flex;
+}
+#contenidoformmovil{
+    width:700px;
+    height: 4450px;
+    background-color: #F0ECEC;
+    margin: auto;
+    display: flex;
+}
+
+#formulariopc{
+    width: 101%;
+    height: 100%;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: -2px;
+    mix-blend-mode: difference;
+}
+#formulariomovil{
+    width: 101%;
+    height: 100%;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: -2px;
+    mix-blend-mode: difference;
+}
+
+/*Pc*/
+@media (min-width: 769px) {
+    #espaciocontenidomovil{
+        display: none;
+    }
+}
+
+/*Movil*/
+@media (max-width: 768px) {
+    #espaciocontenidopc{
+        display: none;
+    }
+}
